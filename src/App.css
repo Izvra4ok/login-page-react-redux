@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+.App {
+    display: grid;
+    grid-template-rows: 50px 1fr;
+    grid-auto-rows: auto;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "header"
+    "content";
+}
+
+.App__content {
+    grid-area: content;
+}
+
+.header {
+    width: 100%;
+    text-align: center;
+    grid-area: header;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+
+}
+
+.form input {
+    width: 300px;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.form button {
+    width: 200px;
+    height: 40px;
+}
