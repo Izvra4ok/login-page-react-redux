@@ -1,4 +1,5 @@
 const LOGIN = "LOGIN";
+const LOGOUT = "LOGOUT";
 
 const initialState = {
     email: "",
@@ -9,6 +10,9 @@ const initialState = {
 export const getLogin = (email, password) => ({
     type: LOGIN, payload: {email, password}
 })
+export const getLogout = (isAuth) => ({
+    type: LOGOUT, isAuth: isAuth,
+})
 
 
 export let authReducer = (state = initialState, action) => {
@@ -18,6 +22,11 @@ export let authReducer = (state = initialState, action) => {
                 ...state,
                 ...action.payload,
                 isAuth: true
+            }
+        case LOGOUT:
+            return {
+                ...state,
+                isAuth: false
             }
         default:
             return state;

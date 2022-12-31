@@ -6,12 +6,12 @@
 
 .App {
     display: grid;
-    grid-template-rows: 50px 1fr;
+    grid-template-rows: 60px 1fr;
     grid-auto-rows: auto;
-    grid-template-columns: 1fr;
+    grid-template-columns: 60px 1fr;
     grid-template-areas:
-    "header"
-    "content";
+    "header header"
+    "navbar content";
 }
 
 .App__content {
@@ -20,11 +20,24 @@
 
 .header {
     width: 100%;
+    display: flex;
+    flex-direction: column;
     text-align: center;
     grid-area: header;
 }
 
+.navbar {
+    grid-area: navbar;
+}
+
+.profile {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
 .form {
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
