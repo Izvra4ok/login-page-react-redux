@@ -1,8 +1,8 @@
 import './App.css';
 import Header from "./components/Header";
-import LoginPage from "./components/LoginPage";
+import LoginPage from "./page/LoginPage";
 import {Route, Routes} from "react-router-dom";
-import ProfilePage from "./components/ProfilePage";
+import ProfilePage from "./page/ProfilePage";
 import Navbar from "./components/Navbar";
 
 const App = () => {
