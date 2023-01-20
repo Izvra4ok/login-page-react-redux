@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/loginpage-react-redux/static/css/main.547bb249.css",
-    "main.js": "/loginpage-react-redux/static/js/main.6371e46e.js",
+    "main.js": "/loginpage-react-redux/static/js/main.308121ac.js",
     "static/js/787.51ff1374.chunk.js": "/loginpage-react-redux/static/js/787.51ff1374.chunk.js",
     "index.html": "/loginpage-react-redux/index.html",
     "main.547bb249.css.map": "/loginpage-react-redux/static/css/main.547bb249.css.map",
-    "main.6371e46e.js.map": "/loginpage-react-redux/static/js/main.6371e46e.js.map",
+    "main.308121ac.js.map": "/loginpage-react-redux/static/js/main.308121ac.js.map",
     "787.51ff1374.chunk.js.map": "/loginpage-react-redux/static/js/787.51ff1374.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.547bb249.css",
-    "static/js/main.6371e46e.js"
+    "static/js/main.308121ac.js"
   ]
 }
